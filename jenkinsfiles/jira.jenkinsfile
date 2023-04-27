@@ -7,7 +7,7 @@ def jira = new org.devops.jira()
 def k8s = new org.devops.kubernetes()
 
 pipeline {
-    #agent { node { label "master"}}
+//    agent { node { label "master"}}
     agent any
      
 
